@@ -23,7 +23,8 @@ cd docs/.vuepress/dist
 if [ -z "$GITHUB_TOKEN" ]; then
   # 手动部署
   msg='deploy'
-  githubUrl=git@github.com:shanmaocc/notes.git
+  # githubUrl=git@github.com:shanmaocc/notes.git
+  githubUrl=https://github.com/shanmaocc/notes.git
 else
   # 自动部署
   msg='来自github actions的自动部署'
