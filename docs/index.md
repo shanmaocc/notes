@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: /img/web.png
-heroText: OddFar's Notes
+heroText: 山猫的笔记
 tagline: 我们在黑暗中并肩前行，走在各自的朝圣路上!
 actionText: 立刻进入 →
 actionLink: /java/

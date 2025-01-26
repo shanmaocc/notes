@@ -50,18 +50,17 @@ module.exports = [
     text: '框架',
     items: [
       {
+        text: 'Spring', items: [
+          { text: 'Spring', link: '/spring/' },
+        ]
+      },
+      {
         text: '数据库', items: [
           { text: 'MyBatis', link: '/mybatis/study-note/' },
           { text: 'MyBatis-Plus', link: '/mybatis-plus/study-note/' },
         ]
-
-
-      }, {
-        text: 'Spring', items: [
-          { text: 'Spring', link: '/spring/' },
-        ]
       }
-      , {
+      ,{
         text: '中间件', items: [
           { text: 'RabbitMQ', link: '/rabbitmq/' },
         ]
@@ -77,13 +76,13 @@ module.exports = [
     ]
   },
   { text: '爬虫', link: '/spider/' },
-  {
-    text: '项目',
-    items: [
-      { text: 'Campus', link: 'https://oddfar.github.io/campus-doc/' },
-      { text: '校园信息墙', link: 'https://oddfar.github.io/campus-doc/campus-example/' },
-    ]
-  },
+  // {
+  //   text: '项目',
+  //   items: [
+  //     { text: 'Campus', link: 'https://oddfar.github.io/campus-doc/' },
+  //     { text: '校园信息墙', link: 'https://oddfar.github.io/campus-doc/campus-example/' },
+  //   ]
+  // },
   { text: '关于', link: '/about/' },
   { text: '归档', link: '/archives/' }
 ]
